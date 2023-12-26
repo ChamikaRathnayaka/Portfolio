@@ -1,0 +1,54 @@
+
+
+.row{
+    margin-top: 5vh;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+.card-image {
+  border-radius: 50%;
+  width: 50vh;
+  height: 50vh;
+  object-fit: cover;
+  border: #ffffff;
+  border: 3px solid rgb(147, 179, 4) ;
+   
+}
+
+
+.card-text{
+    align-items: flex-start;
+    font-weight: bolder;
+    color: #ffffff;
+}
+
+/* Fullstack developer animation */ 
+  .developer {
+    position: relative;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    font-size: 1.5em;
+    letter-spacing: 4px;
+    overflow: hidden;
+    background: linear-gradient(90deg, #000, rgb(147, 179, 4), #000);
+    background-repeat: no-repeat;
+    background-size: 80%;
+    animation: animate 4s linear infinite;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: rgba(255, 255, 255, 0);
+  }
+  
+  @keyframes animate {
+    0% {
+      background-position: -500%;
+    }
+    100% {
+      background-position: 500%;
+    }
+  }
+
+  /* CV_button */
+  
+
