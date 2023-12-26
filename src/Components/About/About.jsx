@@ -6,13 +6,9 @@ export default function Home() {
   return (
     <div>
       <div className="row">
+        
         <div className="col-sm-6">
-            <div className="">
-              <img src={MyImage} alt="Description" className="card-image" />
-            </div> 
-        </div>
-        <div className="col-sm-6">
-          <div className="description">
+          <div className="">
             <h1 className="card-text">
               Hi, I am
               <br />
@@ -21,7 +17,7 @@ export default function Home() {
 
             <p className="developer">I am a Fullstack Developer</p>
 
-            <h4 >
+            <h4 className="description">
               A responsible, skillful, self learning, dedicated undergraduate
               with team spirit and leadership qualities who is willing to accept
               challenges, seeking an opportunity as a Software Engineer to apply
@@ -30,6 +26,17 @@ export default function Home() {
             </h4>
           </div>
 
+          <div class="wrapper">
+            <a href="">
+              <span>Check Resume</span>
+            </a>
+          </div>
+        </div>
+
+        <div className="col-sm-6">
+          <div className="image">
+            <img src={MyImage} alt="Description" className="card-image" />
+          </div>
         </div>
       </div>
     </div>

@@ -7,7 +7,7 @@ import "./header.css";
 
 export default function header() {
   return (
-    <div>
+    <div >
       <Navbar expand="lg" className="navbar white-text">
         <Container>
           <Navbar.Brand className="white-text">
