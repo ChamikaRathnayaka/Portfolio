@@ -11,8 +11,42 @@
 
 .skills_card{
     background: linear-gradient(
-        90deg,
-        rgba(0, 0, 0, 1) 0%,
-        rgba(6, 2, 41, 1) 87%,
-      );
+    90deg,
+    rgba(0, 0, 0, 1) 0%,
+    rgb(4, 1, 29) 87%,
+    rgb(1, 6, 15) 100%
+  );
+      margin-bottom: 5%;
+      border: 2px solid rgb(147, 179, 4);
+      height: 30vh;
+}
+
+.card-header{
+    display: flex;
+    justify-content: center;
+    color: #a6a4a4;
+    font-weight: bold;
+}
+
+.card-body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.skill-title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #a6a4a4;
+}
+
+.name{
+    border: 3px solid red;
+    width: 20%;
+    height: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
 }
