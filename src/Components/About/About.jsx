@@ -1,4 +1,3 @@
-import React from "react";
 import MyImage from "../../Asserts/1.jpg";
 import "./About.css";
 
@@ -6,7 +5,6 @@ export default function Home() {
   return (
     <div>
       <div className="row">
-        
         <div className="col-sm-6">
           <div className="">
             <h1 className="card-text">
@@ -27,7 +25,7 @@ export default function Home() {
           </div>
 
           <div class="wrapper">
-            <a href="">
+            <a href="https://drive.google.com/file/d/1LH1xzRjbMb69YLA5ZjWFXrpTXNAskMm3/view?usp=drive_link">
               <span>Check Resume</span>
             </a>
           </div>

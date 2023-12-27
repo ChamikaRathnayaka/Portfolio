@@ -1,0 +1,18 @@
+.skill_container{
+    color: #ffffff;
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.skills_card{
+    background: linear-gradient(
+        90deg,
+        rgba(0, 0, 0, 1) 0%,
+        rgba(6, 2, 41, 1) 87%,
+      );
+}

@@ -7,7 +7,7 @@ import "./header.css";
 
 export default function header() {
   return (
-    <div >
+    <div>
       <Navbar expand="lg" className="navbar white-text">
         <Container>
           <Navbar.Brand className="white-text">
@@ -16,6 +16,11 @@ export default function header() {
           
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
+            <Nav className="ms-auto justify-content-center">
+              <Nav.Link href="#home" className="white-text">
+                About me
+              </Nav.Link>
+            </Nav>
             <Nav className="ms-auto justify-content-center">
               <Nav.Link href="#home" className="white-text">
                 Home
