@@ -20,9 +20,15 @@ export default function Skills() {
             <div className="card-header">
               <h3>Web Development</h3>
             </div>
-            
             <div className="skill-details">
-               
+              <div class="row skills_grid">
+                <div class="col-sm-3 individual-skill glow">ss</div>
+                <div class="col-sm-3 individual-skill glow">ss</div>
+              </div>
+              <div class="row skills_grid">
+                <div class="col-sm-3 individual-skill glow ">ss</div>
+                <div class="col-sm-3 individual-skill glow">ss</div>
+              </div>
             </div>
           </div>
         </div>
@@ -31,8 +37,15 @@ export default function Skills() {
             <div className="card-header">
               <h3>Web Development</h3>
             </div>
-            <div class="card-body">
-              <h5 class="card-title">Special title treatment</h5>
+            <div className="skill-details">
+              <div class="row skills_grid">
+                <div class="col-sm-3 individual-skill glow">ss</div>
+                <div class="col-sm-3 individual-skill glow">ss</div>
+              </div>
+              <div class="row skills_grid">
+                <div class="col-sm-3 individual-skill glow">ss</div>
+                <div class="col-sm-3 individual-skill glow">ss</div>
+              </div>
             </div>
           </div>
         </div>

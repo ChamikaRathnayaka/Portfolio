@@ -27,9 +27,11 @@ export default function header() {
               </Nav.Link>
             </Nav>
             <Nav className="ms-auto">
+            <a href="https://github.com/ChamikaRathnayaka">
               <button className="glow-on-hover" type="button">
                 Git hub Profile
               </button>
+              </a>
             </Nav>
           </Navbar.Collapse>
         </Container>
