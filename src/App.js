@@ -3,6 +3,7 @@ import Header from "./Components/Header/Header.jsx";
 import About from "./Components/About/About.jsx";
 import "./App.css";
 import Skills from "./Components/Skills/Skills.jsx";
+import Experience from "./Components/Experience/Experience.jsx";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         </Route>
       </Switch>
       <Skills/>
+      <Experience/>
     </Router>
   );
 }
