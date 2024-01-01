@@ -9,7 +9,7 @@ export default function Experience() {
         <h1>EXPERIENCE</h1>
       </div>
       <div className="Experience-title">
-        <h5> My work experience as a software engineer Intern</h5>
+        <h5 className="Experience-subtitle"> My work experience as a software engineer Intern</h5>
       </div>
 
       <div className="container">

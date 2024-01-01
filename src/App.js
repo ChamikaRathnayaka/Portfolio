@@ -4,6 +4,7 @@ import About from "./Components/About/About.jsx";
 import "./App.css";
 import Skills from "./Components/Skills/Skills.jsx";
 import Experience from "./Components/Experience/Experience.jsx";
+import Education from "./Components/Education/Education.jsx";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       </Switch>
       <Skills/>
       <Experience/>
+      <Education/>
     </Router>
   );
 }

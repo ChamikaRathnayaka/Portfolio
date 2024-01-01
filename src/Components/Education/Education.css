@@ -1,14 +1,14 @@
-.Experience_container {
+.Education_container {
   margin-top: 5%;
 }
 
-.Experience-title {
+.Education-title {
   display: flex;
   align-items: center;
   justify-content: center;
   color: #ffffff;
 }
-.Experience-subtitle {
+.Education-subtitle {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -28,8 +28,6 @@
 }
 
 /*apply css properties to card class*/
-
-
 
 .container .card {
   height: 25vh;
