@@ -1,22 +1,21 @@
 .row {
   margin-left: auto;
   margin-right: auto;
-  width: 70%;
 }
 
-.container{
+.about-container{
 margin-top: 5vh;
+width: 70%;
 }
 
 .card-image {
   margin-top: 10%;
   margin-left: 15%;
   border-radius: 50%;
-  width: 50vh;
-  height: 50vh;
+  width: 60vh;
+  height: 60vh;
   object-fit: cover;
   border: #ffffff;
-  border: 3px solid rgb(147, 179, 4);
 }
 
 .card-text {
@@ -101,3 +100,4 @@ margin-top: 5vh;
 .Resume-button:hover:after {
   width: 100%;
 }
+

@@ -4,7 +4,7 @@ import "./About.css";
 export default function Home() {
   return (
     <div>
-      <div className="row container">
+      <div className="row about-container">
         <div className="col-sm-6">
           <div className="">
             <h1 className="card-text">
