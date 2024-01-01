@@ -29,7 +29,7 @@
 
 /*apply css properties to card class*/
 
-.container .card {
+.container .Educard {
   height: 25vh;
   width: 70%;
   position: relative;
@@ -45,17 +45,18 @@
   flex-direction: column;
   box-shadow: 0 5px 202px black;
   transition: 0.3s ease-in-out;
+  border-radius: 10px;
 }
 
 /*apply css properties to card class when it get pointed by cursor*/
 
-.container .card:hover {
-  height: 480px;
+.container .Educard:hover {
+  height: 330px;
 }
 
 /*apply css properties to imgbox class*/
 
-.container .card .imgbox {
+.container .Educard .imgbox {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -64,7 +65,7 @@
 
 /*apply css properties to img tag*/
 
-.container .card .imgbox img {
+.container .Educard .imgbox img {
   width: 20%;
   height: 80%;
   border-radius: 4px;
@@ -73,7 +74,7 @@
 
 /*apply css properties to content class*/
 
-.container .card .content {
+.container .Educard .content {
   position: relative;
   margin-top: -100px;
   padding: 10px 15px;
@@ -85,14 +86,14 @@
   margin: auto;
 }
 
-.container .card:hover .content {
+.container .Educard:hover .content {
   visibility: visible;
   opacity: 1;
   transition-delay: 0.3s;
 }
 
 /* card-hover */
-.card:before {
+.Educard:before {
   content: "";
   background: linear-gradient(
     45deg,
@@ -120,11 +121,11 @@
   border-radius: 10px;
 }
 
-.card:active {
+.Educard:active {
   color: #000;
 }
 
-.card:after {
+.Educard:after {
   z-index: -1;
   content: "";
   position: absolute;
@@ -146,4 +147,12 @@
   100% {
     background-position: 0 0;
   }
+}
+
+.unicat{
+    margin-right: 10px;
+}
+
+.icc{
+    margin-right: 30px;
 }
