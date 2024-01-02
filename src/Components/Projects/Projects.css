@@ -1,0 +1,38 @@
+.container{
+    /* max-width: 40%; */
+    color: #ffffff;
+}
+
+.Projects-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+  }
+
+  .Projects-subtitle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #a6a4a4;
+  }
+
+  .Projects-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10vh;
+    display: flex;
+    flex-direction: row;
+  }
+
+
+/* card grid effect */
+
+.zoom{
+    width: 20vw;
+    display: flex;
+    flex-direction: column;
+}
+
+

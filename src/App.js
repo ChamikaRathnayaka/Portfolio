@@ -5,6 +5,7 @@ import "./App.css";
 import Skills from "./Components/Skills/Skills.jsx";
 import Experience from "./Components/Experience/Experience.jsx";
 import Education from "./Components/Education/Education.jsx";
+import Projects from "./Components/Projects/Projects.jsx";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <Skills/>
       <Experience/>
       <Education/>
+      <Projects/>
     </Router>
   );
 }

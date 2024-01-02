@@ -32,8 +32,6 @@ export default function Education() {
               (University of Moratuwa)
               <br />
               Faculty of Infomation Technology
-              <br />
-              Dec 2022 - Jun 2023
             </h5>
           </div>
           <div class="content">
